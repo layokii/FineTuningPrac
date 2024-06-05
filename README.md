@@ -5,14 +5,14 @@
 
 #### look_at_obj_in_light-BaseballBat-None-DeskLamp-303
 * 2 trial folders
-  1. trial_T20190907_060429_471715
+  - trial_T20190907_060429_471715
     * augmented_traj_data.json -> labels
     * _45 png images in each folder_
     * depth_images_panoramic
     * high_res_images_panoramic
     * instance_masks_panoramic
 
-  2. trial_T20190907_060446_184846
+  - trial_T20190907_060446_184846
     * augmented_traj_data.json -> labels
     * _39 png images in each folder_
     * depth_images_panoramic
