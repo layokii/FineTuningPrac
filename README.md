@@ -2,7 +2,7 @@
 ## Dataset
 * 5 images per image file
 * Each 1500 x 300 image file has 5 300 x 300 images grouped together
-* **__all trial folders contains augmented_traj_data.json(stores label information for each image) &  depth_images_panoramic, high_res_images_panoramic, instance_masks_panoramic folders__**
+* each trial folder contains **_augmented_traj_data.json(stores label information for each image) &  depth_images_panoramic, high_res_images_panoramic, instance_masks_panoramic folders_**
 
 #### look_at_obj_in_light-BaseballBat-None-DeskLamp-303
 * 2 trial folders
@@ -19,6 +19,7 @@
     * _20 png images in each folder_
   - trial_T20190908_185320_708158
     * _40 png images in each folder_
+      
 #### pick_heat_then_place_in_recept-BreadSliced-None-SideTable-3
 * 3 trial folders
   - trial_T20190908_043859_833063
