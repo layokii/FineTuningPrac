@@ -1,0 +1,1601 @@
+{
+    "images": [
+        {
+            "high_idx": 0,
+            "image_name": "000000000.png",
+            "low_idx": 0
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000001.png",
+            "low_idx": 0
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000002.png",
+            "low_idx": 1
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000003.png",
+            "low_idx": 2
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000004.png",
+            "low_idx": 3
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000005.png",
+            "low_idx": 4
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000006.png",
+            "low_idx": 5
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000007.png",
+            "low_idx": 6
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000008.png",
+            "low_idx": 7
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000009.png",
+            "low_idx": 8
+        },
+        {
+            "high_idx": 0,
+            "image_name": "000000010.png",
+            "low_idx": 9
+        },
+        {
+            "high_idx": 1,
+            "image_name": "000000011.png",
+            "low_idx": 10
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000012.png",
+            "low_idx": 11
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000013.png",
+            "low_idx": 12
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000014.png",
+            "low_idx": 13
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000015.png",
+            "low_idx": 14
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000016.png",
+            "low_idx": 15
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000017.png",
+            "low_idx": 16
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000018.png",
+            "low_idx": 17
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000019.png",
+            "low_idx": 18
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000020.png",
+            "low_idx": 19
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000021.png",
+            "low_idx": 20
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000022.png",
+            "low_idx": 21
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000023.png",
+            "low_idx": 22
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000024.png",
+            "low_idx": 23
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000025.png",
+            "low_idx": 24
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000026.png",
+            "low_idx": 25
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000027.png",
+            "low_idx": 26
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000028.png",
+            "low_idx": 27
+        },
+        {
+            "high_idx": 2,
+            "image_name": "000000029.png",
+            "low_idx": 28
+        },
+        {
+            "high_idx": 3,
+            "image_name": "000000030.png",
+            "low_idx": 29
+        }
+    ],
+    "pddl_params": {
+        "mrecep_target": "",
+        "object_sliced": false,
+        "object_target": "ToiletPaper",
+        "parent_target": "ToiletPaperHanger",
+        "toggle_target": ""
+    },
+    "plan": {
+        "high_pddl": [
+            {
+                "discrete_action": {
+                    "action": "GotoLocation",
+                    "args": [
+                        "countertop"
+                    ]
+                },
+                "high_idx": 0,
+                "planner_action": {
+                    "action": "GotoLocation",
+                    "location": "loc|-9|-5|3|60"
+                }
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "toiletpaper"
+                    ]
+                },
+                "high_idx": 1,
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "ToiletPaper",
+                        [
+                            -10.23,
+                            -10.23,
+                            -4.99681284,
+                            -4.99681284,
+                            3.968,
+                            3.968
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -10.98,
+                            -10.98,
+                            -4.972,
+                            -4.972,
+                            3.948,
+                            3.948
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "ToiletPaper|-02.56|+00.99|-01.25"
+                }
+            },
+            {
+                "discrete_action": {
+                    "action": "GotoLocation",
+                    "args": [
+                        "toiletpaperhanger"
+                    ]
+                },
+                "high_idx": 2,
+                "planner_action": {
+                    "action": "GotoLocation",
+                    "location": "loc|-1|-11|2|45"
+                }
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "toiletpaper",
+                        "toiletpaperhanger"
+                    ]
+                },
+                "high_idx": 3,
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "ToiletPaper",
+                        [
+                            -10.23,
+                            -10.23,
+                            -4.99681284,
+                            -4.99681284,
+                            3.968,
+                            3.968
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "ToiletPaperHanger",
+                        [
+                            0.0,
+                            0.0,
+                            -13.328,
+                            -13.328,
+                            3.936,
+                            3.936
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "ToiletPaper|-02.56|+00.99|-01.25",
+                    "receptacleObjectId": "ToiletPaperHanger|+00.00|+00.98|-03.33"
+                }
+            },
+            {
+                "discrete_action": {
+                    "action": "NoOp",
+                    "args": []
+                },
+                "high_idx": 4,
+                "planner_action": {
+                    "action": "End",
+                    "value": 1
+                }
+            }
+        ],
+        "low_actions": [
+            {
+                "api_action": {
+                    "action": "LookDown",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "LookDown_15",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "RotateRight",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "RotateRight_90",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "RotateRight",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "RotateRight_90",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "RotateLeft",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "RotateLeft_90",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "LookDown",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "LookDown_15",
+                    "args": {}
+                },
+                "high_idx": 0
+            },
+            {
+                "api_action": {
+                    "action": "PickupObject",
+                    "objectId": "ToiletPaper|-02.56|+00.99|-01.25"
+                },
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": {
+                        "bbox": [
+                            142,
+                            129,
+                            158,
+                            167
+                        ],
+                        "mask": [
+                            [
+                                38548,
+                                6
+                            ],
+                            [
+                                38846,
+                                9
+                            ],
+                            [
+                                39144,
+                                12
+                            ],
+                            [
+                                39444,
+                                13
+                            ],
+                            [
+                                39743,
+                                15
+                            ],
+                            [
+                                40042,
+                                16
+                            ],
+                            [
+                                40342,
+                                16
+                            ],
+                            [
+                                40642,
+                                17
+                            ],
+                            [
+                                40942,
+                                16
+                            ],
+                            [
+                                41242,
+                                16
+                            ],
+                            [
+                                41542,
+                                16
+                            ],
+                            [
+                                41843,
+                                15
+                            ],
+                            [
+                                42143,
+                                15
+                            ],
+                            [
+                                42443,
+                                15
+                            ],
+                            [
+                                42743,
+                                15
+                            ],
+                            [
+                                43043,
+                                15
+                            ],
+                            [
+                                43343,
+                                15
+                            ],
+                            [
+                                43643,
+                                15
+                            ],
+                            [
+                                43943,
+                                15
+                            ],
+                            [
+                                44243,
+                                15
+                            ],
+                            [
+                                44543,
+                                15
+                            ],
+                            [
+                                44843,
+                                15
+                            ],
+                            [
+                                45143,
+                                15
+                            ],
+                            [
+                                45443,
+                                15
+                            ],
+                            [
+                                45743,
+                                15
+                            ],
+                            [
+                                46043,
+                                15
+                            ],
+                            [
+                                46343,
+                                15
+                            ],
+                            [
+                                46643,
+                                14
+                            ],
+                            [
+                                46943,
+                                14
+                            ],
+                            [
+                                47243,
+                                14
+                            ],
+                            [
+                                47543,
+                                14
+                            ],
+                            [
+                                47843,
+                                14
+                            ],
+                            [
+                                48144,
+                                13
+                            ],
+                            [
+                                48444,
+                                13
+                            ],
+                            [
+                                48744,
+                                13
+                            ],
+                            [
+                                49044,
+                                12
+                            ],
+                            [
+                                49345,
+                                11
+                            ],
+                            [
+                                49646,
+                                8
+                            ],
+                            [
+                                49949,
+                                3
+                            ]
+                        ],
+                        "point": [
+                            150,
+                            147
+                        ]
+                    }
+                },
+                "high_idx": 1
+            },
+            {
+                "api_action": {
+                    "action": "LookUp",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "LookUp_15",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "RotateLeft",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "RotateLeft_90",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "RotateLeft",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "RotateLeft_90",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "RotateRight",
+                    "forceAction": true
+                },
+                "discrete_action": {
+                    "action": "RotateRight_90",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "MoveAhead",
+                    "forceAction": true,
+                    "moveMagnitude": 0.25
+                },
+                "discrete_action": {
+                    "action": "MoveAhead_25",
+                    "args": {}
+                },
+                "high_idx": 2
+            },
+            {
+                "api_action": {
+                    "action": "PutObject",
+                    "forceAction": true,
+                    "objectId": "ToiletPaper|-02.56|+00.99|-01.25",
+                    "placeStationary": true,
+                    "receptacleObjectId": "ToiletPaperHanger|+00.00|+00.98|-03.33"
+                },
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": {
+                        "bbox": [
+                            69,
+                            143,
+                            105,
+                            189
+                        ],
+                        "mask": [
+                            [
+                                42672,
+                                1
+                            ],
+                            [
+                                42971,
+                                3
+                            ],
+                            [
+                                43271,
+                                5
+                            ],
+                            [
+                                43571,
+                                6
+                            ],
+                            [
+                                43870,
+                                9
+                            ],
+                            [
+                                43894,
+                                9
+                            ],
+                            [
+                                44170,
+                                11
+                            ],
+                            [
+                                44194,
+                                12
+                            ],
+                            [
+                                44470,
+                                15
+                            ],
+                            [
+                                44493,
+                                13
+                            ],
+                            [
+                                44769,
+                                37
+                            ],
+                            [
+                                45069,
+                                37
+                            ],
+                            [
+                                45369,
+                                37
+                            ],
+                            [
+                                45669,
+                                37
+                            ],
+                            [
+                                45969,
+                                37
+                            ],
+                            [
+                                46269,
+                                37
+                            ],
+                            [
+                                46569,
+                                36
+                            ],
+                            [
+                                46870,
+                                13
+                            ],
+                            [
+                                46893,
+                                12
+                            ],
+                            [
+                                47170,
+                                10
+                            ],
+                            [
+                                47194,
+                                11
+                            ],
+                            [
+                                47470,
+                                8
+                            ],
+                            [
+                                47495,
+                                10
+                            ],
+                            [
+                                47771,
+                                6
+                            ],
+                            [
+                                47795,
+                                4
+                            ],
+                            [
+                                47802,
+                                3
+                            ],
+                            [
+                                48071,
+                                4
+                            ],
+                            [
+                                48095,
+                                3
+                            ],
+                            [
+                                48102,
+                                3
+                            ],
+                            [
+                                48371,
+                                3
+                            ],
+                            [
+                                48395,
+                                3
+                            ],
+                            [
+                                48402,
+                                2
+                            ],
+                            [
+                                48695,
+                                3
+                            ],
+                            [
+                                48701,
+                                3
+                            ],
+                            [
+                                48995,
+                                3
+                            ],
+                            [
+                                49001,
+                                3
+                            ],
+                            [
+                                49294,
+                                4
+                            ],
+                            [
+                                49301,
+                                3
+                            ],
+                            [
+                                49594,
+                                3
+                            ],
+                            [
+                                49601,
+                                3
+                            ],
+                            [
+                                49894,
+                                3
+                            ],
+                            [
+                                49901,
+                                3
+                            ],
+                            [
+                                50194,
+                                3
+                            ],
+                            [
+                                50201,
+                                2
+                            ],
+                            [
+                                50493,
+                                4
+                            ],
+                            [
+                                50500,
+                                3
+                            ],
+                            [
+                                50793,
+                                4
+                            ],
+                            [
+                                50800,
+                                3
+                            ],
+                            [
+                                51093,
+                                3
+                            ],
+                            [
+                                51100,
+                                3
+                            ],
+                            [
+                                51393,
+                                3
+                            ],
+                            [
+                                51400,
+                                3
+                            ],
+                            [
+                                51693,
+                                3
+                            ],
+                            [
+                                51700,
+                                3
+                            ],
+                            [
+                                51993,
+                                3
+                            ],
+                            [
+                                51999,
+                                3
+                            ],
+                            [
+                                52293,
+                                3
+                            ],
+                            [
+                                52299,
+                                3
+                            ],
+                            [
+                                52593,
+                                4
+                            ],
+                            [
+                                52599,
+                                3
+                            ],
+                            [
+                                52893,
+                                4
+                            ],
+                            [
+                                52899,
+                                3
+                            ],
+                            [
+                                53194,
+                                3
+                            ],
+                            [
+                                53199,
+                                3
+                            ],
+                            [
+                                53494,
+                                3
+                            ],
+                            [
+                                53499,
+                                3
+                            ],
+                            [
+                                53794,
+                                7
+                            ],
+                            [
+                                54094,
+                                7
+                            ],
+                            [
+                                54395,
+                                6
+                            ],
+                            [
+                                54695,
+                                6
+                            ],
+                            [
+                                54995,
+                                6
+                            ],
+                            [
+                                55295,
+                                6
+                            ],
+                            [
+                                55596,
+                                4
+                            ],
+                            [
+                                55896,
+                                4
+                            ],
+                            [
+                                56196,
+                                4
+                            ],
+                            [
+                                56496,
+                                4
+                            ]
+                        ],
+                        "point": [
+                            93,
+                            168
+                        ]
+                    }
+                },
+                "high_idx": 3
+            }
+        ]
+    },
+    "scene": {
+        "color_to_object_type": {
+            "(106, 23, 126)": {
+                "objectID": "ShowerDoor|-02.20|+01.05|-02.50",
+                "objectType": "ShowerDoor"
+            },
+            "(107, 109, 94)": {
+                "objectID": "ScrubBrush|-01.05|+00.00|-03.83",
+                "objectType": "ScrubBrush"
+            },
+            "(109, 64, 226)": {
+                "objectID": "Window|-00.57|+01.73|-04.10",
+                "objectType": "Window"
+            },
+            "(117, 194, 7)": {
+                "objectID": "Cabinet|-02.51|+00.43|-01.26",
+                "objectType": "Cabinet"
+            },
+            "(117, 70, 254)": {
+                "objectID": "SprayBottle|-02.67|+00.08|-01.06",
+                "objectType": "SprayBottle"
+            },
+            "(128, 250, 253)": {
+                "objectID": "Cabinet|-02.51|+00.43|-00.29",
+                "objectType": "Cabinet"
+            },
+            "(134, 224, 55)": {
+                "objectID": "SoapBar|-02.57|+00.08|-00.57",
+                "objectType": "SoapBar"
+            },
+            "(134, 48, 240)": {
+                "objectID": "Cloth|-00.43|+01.04|-03.86",
+                "objectType": "Cloth"
+            },
+            "(138, 185, 213)": {
+                "objectID": "SprayBottle|-02.82|+00.08|-01.49",
+                "objectType": "SprayBottle"
+            },
+            "(139, 18, 203)": {
+                "objectID": "ToiletPaper|-02.64|+00.07|-01.89",
+                "objectType": "ToiletPaper"
+            },
+            "(153, 126, 254)": {
+                "objectID": "Mirror|-02.95|+01.56|-01.19",
+                "objectType": "Mirror"
+            },
+            "(154, 213, 47)": {
+                "objectID": "Sink|-02.91|+00.99|-00.73|SinkBasin",
+                "objectType": "SinkBasin"
+            },
+            "(162, 7, 118)": {
+                "objectID": "Candle|-02.87|+01.00|-00.32",
+                "objectType": "Candle"
+            },
+            "(179, 99, 81)": {
+                "objectID": "Toilet|-00.55|+00.00|-03.53",
+                "objectType": "Toilet"
+            },
+            "(186, 59, 187)": {
+                "objectID": "ShowerHead|-02.87|+01.22|-03.22",
+                "objectType": "ShowerHead"
+            },
+            "(191, 119, 190)": {
+                "objectID": "ToiletPaperHanger|+00.00|+00.98|-03.33",
+                "objectType": "ToiletPaperHanger"
+            },
+            "(195, 75, 123)": {
+                "objectID": "Towel|-01.05|+01.54|-02.89",
+                "objectType": "Towel"
+            },
+            "(199, 176, 32)": {
+                "objectID": "SoapBottle|-00.61|+01.05|-03.86",
+                "objectType": "SoapBottle"
+            },
+            "(200, 254, 219)": {
+                "objectID": "TowelHolder|-01.16|+01.52|-02.89",
+                "objectType": "TowelHolder"
+            },
+            "(202, 0, 89)": {
+                "objectID": "FloorLamp|-02.91|+00.99|-01.76",
+                "objectType": "FloorLamp"
+            },
+            "(213, 42, 135)": {
+                "objectID": "Sink|-02.91|+00.99|-01.76",
+                "objectType": "Sink"
+            },
+            "(213, 8, 20)": {
+                "objectID": "SoapBar|-02.77|+00.08|-01.12",
+                "objectType": "SoapBar"
+            },
+            "(227, 246, 192)": {
+                "objectID": "Sink|-02.91|+00.99|-01.76|SinkBasin",
+                "objectType": "SinkBasin"
+            },
+            "(228, 103, 204)": {
+                "objectID": "Candle|-02.81|+01.00|-01.18",
+                "objectType": "Candle"
+            },
+            "(229, 212, 101)": {
+                "objectID": "LightSwitch|-01.33|+01.39|+00.00",
+                "objectType": "LightSwitch"
+            },
+            "(243, 97, 19)": {
+                "objectID": "Plunger|-01.07|+00.00|-03.53",
+                "objectType": "Plunger"
+            },
+            "(248, 13, 50)": {
+                "objectID": "HandTowelHolder|-02.59|+01.74|-00.01",
+                "objectType": "HandTowelHolder"
+            },
+            "(27, 90, 174)": {
+                "objectID": "FloorLamp|-02.91|+00.99|-00.73",
+                "objectType": "FloorLamp"
+            },
+            "(31, 189, 124)": {
+                "objectID": "SoapBottle|-02.82|+00.08|-02.09",
+                "objectType": "SoapBottle"
+            },
+            "(42, 176, 96)": {
+                "objectID": "SprayBottle|-02.72|+00.08|-01.38",
+                "objectType": "SprayBottle"
+            },
+            "(45, 58, 209)": {
+                "objectID": "HandTowel|-02.59|+01.64|-00.05",
+                "objectType": "HandTowel"
+            },
+            "(47, 167, 179)": {
+                "objectID": "SoapBottle|-02.67|+00.08|-00.63",
+                "objectType": "SoapBottle"
+            },
+            "(47, 216, 147)": {
+                "objectID": "Sink|-02.91|+00.99|-00.73",
+                "objectType": "Sink"
+            },
+            "(48, 103, 203)": {
+                "objectID": "Cabinet|-02.50|+00.40|-01.24",
+                "objectType": "Cabinet"
+            },
+            "(58, 34, 173)": {
+                "objectID": "Cabinet|-02.50|+00.40|-02.21",
+                "objectType": "Cabinet"
+            },
+            "(61, 52, 1)": {
+                "objectID": "ShowerGlass|-02.08|+01.48|-03.26",
+                "objectType": "ShowerGlass"
+            },
+            "(62, 74, 252)": {
+                "objectID": "ToiletPaper|-02.56|+00.99|-01.25",
+                "objectType": "ToiletPaper"
+            },
+            "(70, 140, 168)": {
+                "objectID": "CounterTop|-02.75|+00.99|-01.24",
+                "objectType": "CounterTop"
+            },
+            "(73, 228, 188)": {
+                "objectID": "GarbageCan|-01.53|+00.00|-00.18",
+                "objectType": "GarbageCan"
+            }
+        },
+        "dirty_and_empty": false,
+        "floor_plan": "FloorPlan417",
+        "init_action": {
+            "action": "TeleportFull",
+            "horizon": 30,
+            "rotateOnTeleport": true,
+            "rotation": 180,
+            "x": -1.25,
+            "y": 0.9016677,
+            "z": -1.5
+        },
+        "object_poses": [
+            {
+                "objectName": "Candle_4e8d9897",
+                "position": {
+                    "x": -2.86795521,
+                    "y": 0.9966165,
+                    "z": -0.322000265
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_30dcae22",
+                "position": {
+                    "x": -2.770446,
+                    "y": 0.07933867,
+                    "z": -1.11644316
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_d16f87bc",
+                "position": {
+                    "x": -2.6690855,
+                    "y": 0.08067298,
+                    "z": -1.06270742
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_d16f87bc",
+                "position": {
+                    "x": -2.82147479,
+                    "y": 0.07995981,
+                    "z": -1.48942053
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_ce70c449",
+                "position": {
+                    "x": -2.66886139,
+                    "y": 0.0818843246,
+                    "z": -0.6270961
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_ce70c449",
+                "position": {
+                    "x": -2.82112622,
+                    "y": 0.0825974941,
+                    "z": -2.086413
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Towel_ef0d0edf",
+                "position": {
+                    "x": -1.05195081,
+                    "y": 1.53500009,
+                    "z": -2.887
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 89.99997,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "HandTowel_5c2ba7c4",
+                "position": {
+                    "x": -2.5914,
+                    "y": 1.6351,
+                    "z": -0.04791402
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": -4.78113252e-05,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBar_30dcae22",
+                "position": {
+                    "x": -2.56711912,
+                    "y": 0.0786255,
+                    "z": -0.57327354
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_7d39bd45",
+                "position": {
+                    "x": -2.64004731,
+                    "y": 0.06999543,
+                    "z": -1.88877666
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ToiletPaper_581455d0",
+                "position": {
+                    "x": -2.5575,
+                    "y": 0.992,
+                    "z": -1.24920321
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SoapBottle_ce70c449",
+                "position": {
+                    "x": -0.614128649,
+                    "y": 1.048695,
+                    "z": -3.85699987
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 270.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Candle_4e8d9897",
+                "position": {
+                    "x": -2.8075,
+                    "y": 0.9966165,
+                    "z": -1.17756283
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "ScrubBrush_9c31c02c",
+                "position": {
+                    "x": -1.04891253,
+                    "y": 0.000668982044,
+                    "z": -3.830687
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "Plunger_6845f12e",
+                "position": {
+                    "x": -1.06689429,
+                    "y": 0.0002059862,
+                    "z": -3.52784014
+                },
+                "rotation": {
+                    "x": -0.00118068233,
+                    "y": 0.000421990553,
+                    "z": 0.000781600538
+                }
+            },
+            {
+                "objectName": "Cloth_e2d53691",
+                "position": {
+                    "x": -0.4325158,
+                    "y": 1.03665459,
+                    "z": -3.86168528
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "objectName": "SprayBottle_d16f87bc",
+                "position": {
+                    "x": -2.71973252,
+                    "y": 0.07995987,
+                    "z": -1.38177538
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 90.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "object_toggles": [],
+        "random_seed": 264243467,
+        "scene_num": 417
+    },
+    "task": {
+        "reward_upper_bound": 7.800000000000004,
+        "rewards": [
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            0.2,
+            4.2,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            -0.1,
+            4.9
+        ]
+    },
+    "task_id": "trial_T20190908_185320_708158",
+    "task_type": "pick_and_place_simple",
+    "turk_annotations": {
+        "anns": [
+            {
+                "assignment_id": "AJQGWGESKQT4Y_3A1COHJ8NMCICS3BHHQNIY2OJXM8HP",
+                "high_descs": [
+                    "Turn to the right and stand in front of the counter between the two sinks.",
+                    "Pick up the empty roll from the counter.",
+                    "Turn around and then go to the right to stand in front of the toilet paper holder on the wall to the left of the toilet.",
+                    "Put the roll on the toilet paper holder."
+                ],
+                "task_desc": "Put an empty roll on a toilet paper holder.",
+                "votes": [
+                    1,
+                    1
+                ]
+            },
+            {
+                "assignment_id": "AM2KK02JXXW48_3HUTX6F6VX4HIUN95DCCSGMM9JCO2U",
+                "high_descs": [
+                    "Go to the sink on your right. ",
+                    "Pick up the empty tube on the sink. ",
+                    "Turn around, bring the tube to the toilet on the right. ",
+                    "Put the empty tube on the toilet paper holder, left of the toilet. "
+                ],
+                "task_desc": "Put an empty tube on the toilet paper holder. ",
+                "votes": [
+                    1,
+                    1
+                ]
+            },
+            {
+                "assignment_id": "A36DK84J5YJ942_3LUY3GC632H6PVWGQP6MD78KU4R7P7",
+                "high_descs": [
+                    "move to the counter in between the two sinks",
+                    "pick up a roll from the counter",
+                    "move to the toilet to the left of you",
+                    "put the roll on the toilet"
+                ],
+                "task_desc": "Put a roll on the back of the toilet.",
+                "votes": [
+                    1,
+                    1
+                ]
+            }
+        ]
+    }
+}
