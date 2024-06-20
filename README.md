@@ -26,4 +26,4 @@
    
 In the json files, "color_to_object_type" labels are specified using a dictionary. The keys are in BGR format while the values include the object id and class. 
 
-**__TODO: convert the BGR values to RGB before using__**
+**_TODO: convert the BGR values to RGB before using_**
