@@ -1,6 +1,6 @@
 # FineTuningPrac
 ## Dataset
-* 5 images per image file
+* 5 views per image file
 * Each 1500 x 300 image file has 5 300 x 300 images grouped together
 * Each trial folder contains **_augmented_traj_data.json(stores label information for each image) &  depth_images_panoramic, high_res_images_panoramic, instance_masks_panoramic folders_**
 * Each trial folder holds the same images but with different operations done:
