@@ -31,6 +31,6 @@
    
 In the json files, "color_to_object_type" labels are specified using a dictionary. The keys are in BGR format while the values include the object id and class. 
 
-**_convert the BGR values to RGB before using_**
+**_Convert the BGR values to RGB before using_**
 
 _The dataset doesn't include images in which semantic segmentation was performed, but adapt to this characteristic by treating the instance masks as one whole mask if the instances are of the same class_
