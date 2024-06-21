@@ -26,6 +26,10 @@
    
 Each trial folder holds the same images but with different operations done:
 ![image](https://github.com/layokii/FineTuningPrac/assets/147033274/ede87d18-3583-42c2-a864-7a840092d930)
+* depth_images_panoramic: depth estimation
+* high_res_images_panoramic: original images
+* instance_masks_panoramic: semantic segmentation
+
 
    
 In the json files, "color_to_object_type" labels are specified using a dictionary. The keys are in BGR format while the values include the object id and class. 
