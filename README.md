@@ -2,7 +2,12 @@
 ## Dataset
 * 5 images per image file
 * Each 1500 x 300 image file has 5 300 x 300 images grouped together
-* each trial folder contains **_augmented_traj_data.json(stores label information for each image) &  depth_images_panoramic, high_res_images_panoramic, instance_masks_panoramic folders_**
+* Each trial folder contains **_augmented_traj_data.json(stores label information for each image) &  depth_images_panoramic, high_res_images_panoramic, instance_masks_panoramic folders_**
+* Each trial folder holds the same images but with different operations done:
+ ![image](https://github.com/layokii/FineTuningPrac/assets/147033274/ede87d18-3583-42c2-a864-7a840092d930)
+  * depth_images_panoramic: depth estimation
+  * high_res_images_panoramic: original images
+  * instance_masks_panoramic: instance segmentation
 
 * look_at_obj_in_light-BaseballBat-None-DeskLamp-303
   * _to be used as validation set_
@@ -23,14 +28,6 @@
     - trial_T20190908_043859_833063 - _81 png images in each folder_
     - trial_T20190908_043909_541721 - _65 png images in each folder_
     - trial_T20190908_185320_708158 - _72 png images in each folder_
-   
-Each trial folder holds the same images but with different operations done:
-![image](https://github.com/layokii/FineTuningPrac/assets/147033274/ede87d18-3583-42c2-a864-7a840092d930)
-* depth_images_panoramic: depth estimation
-* high_res_images_panoramic: original images
-* instance_masks_panoramic: instance segmentation
-
-
    
 In the json files, "color_to_object_type" labels are specified using a dictionary. The keys are in BGR format while the values include the object id and class. 
 
