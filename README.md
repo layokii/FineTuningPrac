@@ -24,6 +24,10 @@
     - trial_T20190908_043909_541721 - _65 png images in each folder_
     - trial_T20190908_185320_708158 - _72 png images in each folder_
    
+Each trial folder holds the same images but with different operations done:
+![image](https://github.com/layokii/FineTuningPrac/assets/147033274/ede87d18-3583-42c2-a864-7a840092d930)
+
+   
 In the json files, "color_to_object_type" labels are specified using a dictionary. The keys are in BGR format while the values include the object id and class. 
 
 **_TODO: convert the BGR values to RGB before using_**
